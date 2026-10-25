@@ -17,4 +17,6 @@ th{font-size:.8rem;color:#6b6b63;font-weight:600;text-transform:uppercase;letter
 width:10px;height:10px;border-radius:50%;margin-right:5px}.k.ml:before{background:#0b6b3a}.k.loja:before{background:#c77700}
 details{margin:.4em 0}summary{cursor:pointer;font-weight:600}ul.all{padding-left:18px}ul.all li{margin:2px 0}
 footer{color:#6b6b63;font-size:.85rem;padding-top:24px;padding-bottom:32px}
+.cta .big{font-size:1.2rem}.btn.big{font-size:1.1rem;padding:14px 22px}table.stats{max-width:460px;margin:8px 0 14px}
+table.stats th{text-transform:none;font-size:.95rem;color:#3d3d38;font-weight:500}code{background:#fff;padding:1px 4px;border-radius:4px}
 @media(min-width:700px){h1{font-size:2rem}}
