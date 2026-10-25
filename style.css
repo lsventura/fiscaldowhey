@@ -1,0 +1,19 @@
+*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#1d1d1b;background:#fbfaf7}
+a{color:#0b6b3a}main,header,footer{max-width:760px;margin:0 auto;padding:0 16px}
+header{display:flex;align-items:center;justify-content:space-between;padding-top:14px;padding-bottom:6px}
+.logo{font-weight:800;text-decoration:none;color:#1d1d1b;letter-spacing:-.02em}.logo b{color:#0b6b3a}
+h1{font-size:1.6rem;line-height:1.2;margin:.6em 0 .2em;letter-spacing:-.02em}h2{font-size:1.15rem;margin:1.6em 0 .4em}
+.sub{color:#5b5b55;margin:0 0 1em}.btn{display:inline-block;background:#0b6b3a;color:#fff;text-decoration:none;font-weight:700;
+padding:12px 18px;border-radius:10px}.btn.tg{background:#229ed9}.btn.small{padding:6px 12px;font-size:.9rem}
+.cta{background:#eef6f0;border-radius:14px;padding:16px;margin:18px 0}.cta p{margin:0 0 10px}
+table{width:100%;border-collapse:collapse;font-size:.95rem}th,td{padding:8px 6px;border-bottom:1px solid #e7e4dc;text-align:left;vertical-align:top}
+th{font-size:.8rem;color:#6b6b63;font-weight:600;text-transform:uppercase;letter-spacing:.03em}td.n{text-align:right;white-space:nowrap}
+.price{font-size:2rem;font-weight:800;letter-spacing:-.02em;margin:.1em 0}.muted{color:#6b6b63;font-size:.9rem}
+.verdict{font-size:1.05rem;background:#fff;border:1px solid #e7e4dc;border-radius:12px;padding:12px 14px}
+.chart{width:100%;max-width:560px;display:block;height:auto;background:#fff;border:1px solid #e7e4dc;border-radius:12px}.chart text{font-size:12px;fill:#6b6b63}
+.chart .g{stroke:#eee9df}.chart .l{fill:none;stroke-width:2}.chart .l.ml{stroke:#0b6b3a}.chart .l.loja{stroke:#c77700}
+.chart circle.ml{fill:#0b6b3a}.chart circle.loja{fill:#c77700}.k{font-size:.85rem;margin-right:12px}.k:before{content:"";display:inline-block;
+width:10px;height:10px;border-radius:50%;margin-right:5px}.k.ml:before{background:#0b6b3a}.k.loja:before{background:#c77700}
+details{margin:.4em 0}summary{cursor:pointer;font-weight:600}ul.all{padding-left:18px}ul.all li{margin:2px 0}
+footer{color:#6b6b63;font-size:.85rem;padding-top:24px;padding-bottom:32px}
+@media(min-width:700px){h1{font-size:2rem}}

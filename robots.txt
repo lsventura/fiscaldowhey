@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lsventura.github.io/fiscaldowhey/sitemap.xml
