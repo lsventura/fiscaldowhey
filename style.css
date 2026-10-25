@@ -19,4 +19,7 @@ details{margin:.4em 0}summary{cursor:pointer;font-weight:600}ul.all{padding-left
 footer{color:#6b6b63;font-size:.85rem;padding-top:24px;padding-bottom:32px}
 .cta .big{font-size:1.2rem}.btn.big{font-size:1.1rem;padding:14px 22px}table.stats{max-width:460px;margin:8px 0 14px}
 table.stats th{text-transform:none;font-size:.95rem;color:#3d3d38;font-weight:500}code{background:#fff;padding:1px 4px;border-radius:4px}
-@media(min-width:700px){h1{font-size:2rem}}
+.join{margin:14px 0 18px;padding:14px;border-radius:14px;background:#e8f5fc;border:1.5px solid #229ed9}
+.join .btn{display:block;text-align:center;font-size:1.15rem;padding:15px 18px;box-shadow:0 3px 0 #1a7fb0}
+.join p{margin:8px 0 0;font-size:.9rem;color:#2d4a58;text-align:center}
+@media(min-width:700px){h1{font-size:2rem}.join .btn{display:inline-block}.join p{text-align:left}}
