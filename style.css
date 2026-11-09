@@ -23,4 +23,19 @@ table.stats th{text-transform:none;font-size:.95rem;color:#3d3d38;font-weight:50
 .join{margin:14px 0 18px;padding:14px;border-radius:14px;background:#e8f5fc;border:1.5px solid #229ed9}
 .join .btn{display:block;text-align:center;font-size:1.15rem;padding:15px 18px;box-shadow:0 3px 0 #1a7fb0}
 .join p{margin:8px 0 0;font-size:.9rem;color:#2d4a58;text-align:center}
-@media(min-width:700px){h1{font-size:2rem}.join .btn{display:inline-block}.join p{text-align:left}}
+.btn.wa{background:#1fa855}.join .btn.wa{box-shadow:0 3px 0 #168043;margin-top:8px}.hdr{display:flex;gap:6px}
+td.n,.price,.stats td{font-variant-numeric:tabular-nums}
+.pill{display:inline-block;font-size:.78rem;font-weight:700;line-height:1;padding:4px 8px;border-radius:999px;margin:2px 0 0;white-space:nowrap}
+.pill.drop,.pill.low{background:#e3f4e8;color:#0b6b3a}.pill.high{background:#fbeee0;color:#9a5a00}.pill.ok{background:#f0eee8;color:#5b5b55}
+.pill.new{background:#eef1f6;color:#3c4f6b}
+.badge{display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;padding:3px 7px;border-radius:6px;vertical-align:2px;margin-left:4px}
+.badge.prem{background:linear-gradient(90deg,#f8dc8c,#d9a93a);color:#3a2a05}
+.hero{background:#fff;border:1px solid #e7e4dc;border-radius:16px;padding:14px 16px;margin:10px 0 6px}.hero .price{margin:.05em 0 .1em}
+.prem-box{background:linear-gradient(160deg,#1c1810,#2a2213);color:#f3ead2;border-radius:16px;padding:14px 16px;margin:18px 0}
+.prem-box h2{margin:.2em 0 .5em;color:#f3c969}.prem-box a{color:#f8dc8c}.prem-box .muted{color:#c9bc9a}
+.prem-box table td,.prem-box table th{border-bottom-color:#3a3220}.prem-box th{color:#c9bc9a}
+.prem-box .pill.drop,.prem-box .pill.low{background:#f3c969;color:#2a2005}.prem-box .pill.ok,.prem-box .pill.new{background:#3a3220;color:#e8dcbc}
+.prem-box .pill.high{background:#4a3515;color:#f1c98a}
+@media(max-width:520px){main,header,footer{padding:0 12px}th,td{padding:7px 4px}table{font-size:.9rem}.price{font-size:1.75rem}
+header .btn.small{padding:6px 9px;font-size:.82rem}}
+@media(min-width:700px){h1{font-size:2rem}.join .btn{display:inline-block}.join p{text-align:left}.join .btn.wa{margin:0 0 0 8px}}
